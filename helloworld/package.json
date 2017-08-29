@@ -1,0 +1,13 @@
+{
+    "name": "docker_nodejs_helloworld",
+    "version": "1.0.0",
+    "description": "Dockerizing node.js sample application",    
+    "main": "app.js",
+    "scripts": {
+       "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "~4.14.0",
+        "express-handlebars": "~3.0.0"
+    }
+}
